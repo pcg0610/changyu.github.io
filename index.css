@@ -23,6 +23,10 @@ input:focus {
   color: #7f8c8d;
 }
 
+.toDo {
+  font-size: 28px;
+}
+
 ::placeholder,
 input:focus {
   color: white;
@@ -33,8 +37,8 @@ input:focus {
   display: none;
 }
 
-.js-form {
-  font-size: 15px;
+.js-greetings {
+  font-size: 35px;
 }
 .showing {
   display: block;
@@ -63,8 +67,8 @@ input:focus {
   text-align: left;
   vertical-align: middle;
   width: 300px;
-  padding-left: 220px;
-  font-size: 8px;
+  padding-left: 40%;
+  font-size: 26px;
   margin-bottom: 22px;
 }
 
@@ -80,11 +84,12 @@ input:focus::placeholder {
 button {
   background-color: transparent !important;
   border: none;
-  font-size: 3px;
+  font-size: 17px;
   padding-left: 0;
   padding-top: 0;
   padding-top: 0;
   padding-right: 2px;
+  width: max-content;
 }
 
 button:focus {
@@ -93,8 +98,8 @@ button:focus {
 }
 
 .js-clock {
-  margin-top: 80px;
-  font-size: 25px;
+  margin-top: 15%;
+  font-size: 45px;
 }
 
 .js-weather {
@@ -102,4 +107,5 @@ button:focus {
   top: 85%;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 25px;
 }
