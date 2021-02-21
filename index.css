@@ -6,6 +6,9 @@ body {
   height: auto;
 }
 
+span {
+  width: 200px;
+}
 .inputBox {
   background-color: transparent;
   border: none;
@@ -24,7 +27,11 @@ input:focus {
 }
 
 .toDo {
+  position: absolute;
+  top: 45%;
   font-size: 28px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 ::placeholder,
@@ -39,6 +46,7 @@ input:focus {
 
 .js-greetings {
   font-size: 35px;
+  margin: 0;
 }
 .showing {
   display: block;
@@ -70,6 +78,8 @@ input:focus {
   padding-left: 40%;
   font-size: 26px;
   margin-bottom: 22px;
+  position: absolute;
+  top: 50%;
 }
 
 ul {
@@ -108,4 +118,22 @@ button:focus {
   left: 50%;
   transform: translateX(-50%);
   font-size: 25px;
+}
+
+#userInput {
+  margin: 0;
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#toDoInput {
+  margin: 0;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
 }
